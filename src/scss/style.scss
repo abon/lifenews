@@ -170,8 +170,16 @@ ul.timeline > li:before {
     width: 50px;
     line-height: 28px;
     font-size: 11px;
-    
  }
+
+ 
+#page-header{
+  height:100px;
+  background:url('../img/header.jpg');
+  color:#fff;
+  border-bottom:1px #eee solid;
+  padding-top:50px;
+}
     
   /*-------------------------------------header end--------------------------------------*/
   
