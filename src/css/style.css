@@ -94,7 +94,7 @@ header {
   background-color: white; }
   header .container-fluid .row .col-md-10 .row:nth-child(2) .col-md-2 {
     display: block;
-    padding-left: 70px !important; }
+    padding-right: 70px !important; }
 
 .logo {
   vertical-align: middle;
@@ -112,7 +112,7 @@ header {
       padding: 10px;
       font-weight: 450; }
       .menu1 li a:hover {
-        color: #ACC26D; }
+        color: #92e247; }
 
 .menu2 li {
   display: inline;
@@ -124,13 +124,12 @@ header {
     text-decoration: none;
     color: #000; }
     .menu2 li a:hover {
-      color: #ACC26D; }
+      color: #92db61; }
 
 .btn.btn-1 {
-  height: 40px;
-  width: 50px;
-  line-height: 28px;
-  font-size: 11px; }
+  height: 60%;
+  float: right;
+  padding: 0 10px; }
 
 #page-header {
   height: 100px;
