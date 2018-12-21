@@ -211,13 +211,17 @@ main section:nth-child(3) .container-fluid .row .col-md-3 {
     height: 100% !important; }
 
 /*-------------------------------------main end--------------------------------------*/
-/*
-#news-header{
-  .btn-n{
+#news-header .btn-n {
   line-height: 28px;
-    width: 180px;
-    height: 40px;
-  }
-}
+  width: 180px;
+  height: 40px; }
 
-*/
+/***********************************  NEWS PAGE ******************************/
+.card .card-news {
+  padding: 2rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding-right: 30px;
+  padding: 0 100px; }

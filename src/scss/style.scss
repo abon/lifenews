@@ -216,7 +216,7 @@ main {
           span:nth-child(1) {
             border-right: 1px solid #c1c1c1;
             padding-right: 15px;
-     
+
           }
 
           span:nth-child(2) {
@@ -338,7 +338,7 @@ main {
 
 /*-------------------------------------main end--------------------------------------*/
 
-/*
+
 #news-header{
   .btn-n{
   line-height: 28px;
@@ -347,4 +347,19 @@ main {
   }
 }
 
-*/
+
+
+
+/***********************************  NEWS PAGE ******************************/
+.card {
+  .card-news {
+   padding: 2rem;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+ padding-right: 30px;
+    padding: 0 100px;
+
+  }
+}
