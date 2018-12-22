@@ -219,6 +219,7 @@ main {
 
           }
 
+   
           span:nth-child(2) {
             border-right: 1px solid #c1c1c1;
             padding-right: 15px;
@@ -362,4 +363,16 @@ main {
     padding: 0 100px;
 
   }
+
+  
+#page-header-1 {
+  height: 100px;
+  background: url('../img/banner.PNG');
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 10px;
+}
+
+
+
 }
