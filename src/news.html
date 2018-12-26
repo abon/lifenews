@@ -101,7 +101,8 @@
                             <a href="#search">
                                 <img src="img/icons8-поиск-30.png" alt="site logo">
                             </a>
-                            <a href="#login"><button type="button" class="btn btn-outline-success btn-1 my-2 my-sm-0 ">Войти</button></a>
+                            <a href="#login"><button type="button" class="btn btn-outline-success btn-1 mr-auto"><i
+                                        class="fa fa-user"></i> Войти</button></a>
                         </div>
                     </div>
                 </div>
@@ -139,44 +140,168 @@
 
 
         <section id="news-header">
-            <div class="pt-3 text-right">
-                <a href="/news/add" class="btn btn-primary btn-n pull-right">+ Сообщить новость</a>
-            </div>
-            <h1 class="display-7">Новости Ташкента</h1>
-
-        </section>
-
-        <section id="news-filter">
-            <div class="col-sm-8 ml-5">
-    <div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-      <div role="separator" class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div>
-  </div>
-  <input type="text" class="form-control" aria-label="Text input with dropdown button">
-</div>
-
-        </div>
-
-
-        
-        </section>
-
-
-
-
-
-        <section id="news-page">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-10 card-news">
-                        <div class="card mb-5">
+                    <div class="col-md-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb bg-white">
+                                <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Новости</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                    <div class="col-md-9 ml-auto">
+                        <h1 class="display-4">Новости Ташкента</h1>
+                    </div>
+                    <div class="col-md-3 mt-4 mr-auto">
+                        <a href="/news/add" class="btn btn-primary btn-n pull-right"><i class="fa fa-plus"></i>
+                            Сообщить новость</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="news-feed">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-11">
+                        <h3 class="lead bg-light ">Сортировка Новостей:</h3>
+                        <div class="d-flex ml-3">
+                            <div class="dropdown mr-1">
+                                <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownMenuOffset"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                                    Рубрики новостей
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Криминал</span>
+                                    </label>
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Культура</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Общество</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Политика</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Происшествия</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Экология</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Спорт</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Бизнес</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Реклама</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Интервью</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Аналитика</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">Новости компаний</span>
+                                    </label>
+
+
+                                </div>
+                            </div>
+
+                            <div class="dropdown mr-1">
+                                <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownMenuOffset"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                                    По дате
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">самый последний</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">прошлой недели</span>
+                                    </label>
+
+
+                                    <label class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input">
+                                        <span class="custom-control-indicator"></span>
+                                        <span class="custom-control-description">прошлого месяца</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Search" type="search" placeholder="Напишите ваше ключевое слово">
+                            <button class="btn btn-success" type="submit"><i class="fa fa-search"></i> Поиск</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="news-cards">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card border-light mt-3">
                             <div class="card-body">
                                 <a href="#">
                                     <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
@@ -187,100 +312,136 @@
                                     подходящих стран для ведения бизнеса в 2019 году.
                                     Возглавила данный рейтинг Великобритания.
                                 </p>
-
                             </div>
                         </div>
 
-                        <div class="card mb-3">
+                        <div class="card border-light mt-3">
                             <div class="card-body">
                                 <a href="#">
-                                    <h4 class="card-title text-success">Белгородский Роспотребнадзор нашёл нарушения в
-                                        местах
-                                        проведения
-                                        праздников</h4>
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
                                 </a>
                                 <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
                                     наиболее
                                     подходящих стран для ведения бизнеса в 2019 году.
                                     Возглавила данный рейтинг Великобритания.
                                 </p>
-                                <a href="#" class="btn btn-success pull-right">прочитайте больше</a>
                             </div>
                         </div>
 
-
-
-                        <div class="card mb-3">
+                        <div class="card border-light mt-3">
                             <div class="card-body">
                                 <a href="#">
-                                    <h4 class="card-title text-success">Белгородский Роспотребнадзор нашёл нарушения в
-                                        местах
-                                        проведенияпраздников</h4>
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
                                 </a>
                                 <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
                                     наиболее
                                     подходящих стран для ведения бизнеса в 2019 году.
                                     Возглавила данный рейтинг Великобритания.
                                 </p>
-                                <a href="#" class="btn btn-success pull-right">прочитайте больше</a>
                             </div>
                         </div>
 
-                        <div class="card mb-3">
-
+                        <div class="card border-light mt-3">
                             <div class="card-body">
                                 <a href="#">
-                                    <h4 class="card-title text-success">Белгородский Роспотребнадзор нашёл нарушения в
-                                        местах
-                                        проведения
-                                        праздников</h4>
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
                                 </a>
                                 <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
                                     наиболее
                                     подходящих стран для ведения бизнеса в 2019 году.
                                     Возглавила данный рейтинг Великобритания.
                                 </p>
-                                <a href="#" class="btn btn-success pull-right">прочитайте больше</a>
                             </div>
                         </div>
 
-                        <div class="card mb-3">
-
+                        <div class="card border-light mt-3">
                             <div class="card-body">
                                 <a href="#">
-                                    <h4 class="card-title text-success">Белгородский Роспотребнадзор нашёл нарушения в
-                                        местах
-                                        проведения
-                                        праздников</h4>
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
                                 </a>
                                 <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
                                     наиболее
                                     подходящих стран для ведения бизнеса в 2019 году.
                                     Возглавила данный рейтинг Великобритания.
                                 </p>
-                                <a href="#" class="btn btn-success pull-right">прочитайте больше</a>
                             </div>
                         </div>
 
-                        <div class="card mb-3">
+                        <div class="card border-light mt-3">
                             <div class="card-body">
                                 <a href="#">
-                                    <h4 class="card-title text-success ">Белгородский Роспотребнадзор нашёл нарушения в
-                                        местах
-                                        проведения
-                                        праздников</h4>
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
                                 </a>
                                 <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
                                     наиболее
                                     подходящих стран для ведения бизнеса в 2019 году.
                                     Возглавила данный рейтинг Великобритания.
                                 </p>
-                                <a href="#" class="btn btn-success pull-right">прочитайте больше</a>
                             </div>
                         </div>
 
+                        <div class="card border-light mt-3">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
+                                </a>
+                                <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
+                                    наиболее
+                                    подходящих стран для ведения бизнеса в 2019 году.
+                                    Возглавила данный рейтинг Великобритания.
+                                </p>
+                            </div>
+                        </div>
 
-                        <div class="card mb-3">
+                        <div class="card border-light mt-3">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
+                                </a>
+                                <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
+                                    наиболее
+                                    подходящих стран для ведения бизнеса в 2019 году.
+                                    Возглавила данный рейтинг Великобритания.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card border-light mt-3">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
+                                </a>
+                                <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
+                                    наиболее
+                                    подходящих стран для ведения бизнеса в 2019 году.
+                                    Возглавила данный рейтинг Великобритания.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card border-light mt-3">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h4 class="card-title">Белгородский Роспотребнадзор нашёл нарушения в местах
+                                        проведения праздников</h4>
+                                </a>
+                                <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
+                                    наиболее
+                                    подходящих стран для ведения бизнеса в 2019 году.
+                                    Возглавила данный рейтинг Великобритания.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card border-light mt-3">
                             <img class="card-img" height="400" src="img/lights.jpg">
                             <div class="card-img-overlay">
                                 <h4 class="card-title text-white text-center">Белгородская область вошла в пятёрку
@@ -299,51 +460,70 @@
                                 </a>
                             </div>
                         </div>
+                        <button class="btn btn-info  btn-block">Ещё новости</button>
+                    </div>
 
-
-
-
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <a href="#">
-                                    <h4 class="card-title text-success ">Белгородский Роспотребнадзор нашёл нарушения в
-                                        местах
-                                        проведения
-                                        праздников</h4>
-                                </a>
-                                <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
-                                    наиболее
-                                    подходящих стран для ведения бизнеса в 2019 году.
-                                    Возглавила данный рейтинг Великобритания.
-                                </p>
-                                <a href="#" class="btn btn-success pull-right">прочитайте больше</a>
-                            </div>
-                        </div>
-
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <a href="#">
-                                    <h4 class="card-title text-success ">Белгородский Роспотребнадзор нашёл нарушения в
-                                        местах
-                                        проведения
-                                        праздников</h4>
-                                </a>
-                                <p class="card-text">По версии журнала ForbesУзбекистан занимает 105 место в рейтинг
-                                    наиболее
-                                    подходящих стран для ведения бизнеса в 2019 году.
-                                    Возглавила данный рейтинг Великобритания.
-                                </p>
-                                <a href="#" class="btn btn-success pull-right">прочитайте больше</a>
-                            </div>
-                        </div>
-
-
-
-
-
+                    <div class="col-md-3">
+                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTz=0&amp;height=300&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=en.uz%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=205ivnk2lihq5ord4plf7mgf4k%40group.calendar.google.com&amp;color=%238D6F47&amp;src=en.islamic%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Asia%2FSamarkand"
+                            style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
             </div>
-            </div>
-
         </section>
+
+        <footer id="myFooter" class="bg-dark">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Экология</h5>
+                    <ul>
+                        <li><a href="#">Политика</a></li>
+                        <li><a href="#">Происшествия</a></li>
+                        <li><a href="#">Экология</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Экология</h5>
+                    <ul>
+                        <li><a href="#">Политика</a></li>
+                        <li><a href="#">Происшествия</a></li>
+                        <li><a href="#">Экология</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Экология</h5>
+                    <ul>
+                        <li><a href="#">Политика</a></li>
+                        <li><a href="#">Происшествия</a></li>
+                        <li><a href="#">Экология</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Экология</h5>
+                    <ul>
+                        <li><a href="#">Политика</a></li>
+                        <li><a href="#">Происшествия</a></li>
+                        <li><a href="#">Экология</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+            <iframe id="map-container" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyBDIa_dNO_W8Oi6A3CSTrKbWbWrs5mWGt4" >
+            </iframe>
+        </div>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2018 Copyright Text </p>
+        </div>
+    </footer>
+
+
+        <script src="js/dropdown.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
