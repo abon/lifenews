@@ -30,6 +30,7 @@
 
 body {
   background-color: #f6f8fd;
+  overflow-x: hidden;
   /*  
     aside{
       .container-fluid{
