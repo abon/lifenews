@@ -55,7 +55,7 @@
             </div>
         </div>
     </header>
-    
+
     <div>
         <header id="page-header">
             <div class="container">
@@ -87,48 +87,107 @@
 
         <section>
             <div class="carousel slide" id="myCarousel" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#myCarousell"></li>
-                <li data-slide-to="1" data-target="#myCarousel"></li>
-                <li data-slide-to="2" data-target="#myCarousel"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item carousel-image-1 active">
-                    <div class="container">
-                        <div class="carousel-caption d-none d-sm-block mb-5">
-                            <h3>Advert 1</h3>
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#myCarousell"></li>
+                    <li data-slide-to="1" data-target="#myCarousel"></li>
+                    <li data-slide-to="2" data-target="#myCarousel"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image-1 active">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block mb-5">
+                                <h3>Advert 1</h3>
+                            </div>
                         </div>
+                    </div>
+
+
+                    <div class="carousel-item carousel-image-2">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block mb-5">
+                                <h3>Advert 2</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item carousel-image-3">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block  mb-5">
+                                <h3>Advert 3</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+<section>
+        <div class="col-md-11 mb-3">
+            <h3 class="lead  ">Афиша :</h3>
+            <div class="d-flex ml-3">
+                <div class="dropdown mr-1">
+                    <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownMenuOffset"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                        Рубрики
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Кино</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Ночная жизнь</span>
+                        </label>
+
+
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Концерты</span>
+                        </label>
+
+
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Театры</span>
+                        </label>
+
+
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Рестораны</span>
+                        </label>
+
+
+                        <label class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Выставки</span>
+                        </label>
+
+
                     </div>
                 </div>
 
-
-                <div class="carousel-item carousel-image-2">
-                    <div class="container">
-                        <div class="carousel-caption d-none d-sm-block mb-5">
-                            <h3>Advert 2</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item carousel-image-3">
-                    <div class="container">
-                        <div class="carousel-caption d-none d-sm-block  mb-5">
-                            <h3>Advert 3</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-
-                <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
+                <input type="text" class="form-control" aria-label="Search" type="search" placeholder="Напишите ваше ключевое слово">
+                <button class="btn btn-success" type="submit"><i class="fa fa-filter"></i> Фильтр</button>
             </div>
         </div>
-          
-        </section>
+</section>
 
         <!--------------------------------------------------KINO--------------------------------------------------------->
 
@@ -719,7 +778,8 @@
                 <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
             </div>
             <div class="footer-copyright text-right">
-                <p>Designed & Developed by <a src="https://asiagood.uz"> <span style="color:rgba(235, 26, 26, 0.986)"> AsiaGood</span> </p>
+                <p>Designed & Developed by <a src="https://asiagood.uz"> <span style="color:rgba(235, 26, 26, 0.986)">
+                            AsiaGood</span> </p>
             </div>
         </footer>
 
