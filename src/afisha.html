@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Сайт Ташкента lifenews.uz - лента новостей и последние события в городе</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row p-3">
+                <div class="col-md-1 logo">
+                    <a href="#">
+                        <img width="150" height="80" src="img/logo.png" alt="">
+                    </a>
+
+                </div>
+                <div class="col-md-9 ml-2">
+                    <div class="row ">
+                        <ul class="menu1">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="news.html">Новости</a></li>
+                            <li><a href="#">Справочник</a></li>
+                            <li><a href="#">Объявления</a></li>
+                            <li><a href="afisha.html" style="color: rgb(142, 226, 120)">Афиша</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-md-10">
+                            <ul class="menu2">
+                                <li><a href="#">Досуг</a></li>
+                                <li><a href="#">Фотоотчеты</a></li>
+                                <li><a href="#">Шоппинг</a></li>
+                                <li><a href="#">Карта города</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-2 text-center ">
+                            <a href="#search">
+                                <img src="img/icons8-поиск-30.png" alt="site logo">
+                            </a>
+                            <a href="#login"><button type="button" class="btn btn-outline-success btn-sm "><i class="fa fa-user"></i>
+                                    Войти</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div>
+        <header id="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 m-auto text-center">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <a class="weatherwidget-io" href="https://forecast7.com/ru/41d4169d31/tashkent-district/" data-label_1="Погода"
+            data-label_2="в Ташкенте" data-font="Open Sans" data-icons="Climacons Animated" data-days="5" data-theme="weather_one">Погода
+            в Ташкенте</a>
+        <script>
+            ! function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'weatherwidget-io-js');
+        </script>
+    </div>
+    <main>
+
+
+        <section>
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousell"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h3>Advert 1</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h3>Advert 2</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block  mb-5">
+                            <h3>Advert 3</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+
+                <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+          
+        </section>
+
+        <!--------------------------------------------------KINO--------------------------------------------------------->
+
+        <section class="bg-transparent">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9">
+                        <hr>
+                        <p>KINO </p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-md-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-md-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------------TEATR--------------------------------------------------------->
+        <section class="bg-transparent mt-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9">
+                        <hr>
+                        <p>TEATR</p>
+                        <div class="row">
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 mt-3">
+                                <div class="card border-white" width="50%">
+                                    <img src="img/afisha.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Бамблби</h5>
+                                        <small>боевик, приключения, США,</small>
+                                    </div>
+                                    <div class="card-footer bg-white">
+                                        <a href="" class="btn btn-sm btn-success">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-play ml-2"></a>
+                                        <a style="color: rgb(178, 182, 178)" href="" class="fa fa-calendar ml-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="bg-transparent mt-3 mb-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha1.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha1.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha1.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha1.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha1.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha1.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <hr>
+
+        <section class="bg-transparent mt-3 mb-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card border-white  col-md-4 mt-3">
+                                <div class="row ">
+                                    <div class="col-md-4">
+                                        <img class=" w-100" src="img/afisha.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-block">
+                                            <div class="card-title">
+                                                <h4 class="lead">Бамблби</h4>
+                                                <small>боевик, приключения, США,</small>
+                                                <hr>
+                                                <a href="" class="btn btn-sm btn-success ">Подробнее <i class="fa fa-arrow-circle-right"></i></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-thumbs-o-up ml-2"></a>
+                                                <a style="color: rgb(178, 182, 178)" href="" class="fa fa-comment-o ml-2 "></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer id="myFooter" class="bg-dark">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <iframe id="map-container" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyBDIa_dNO_W8Oi6A3CSTrKbWbWrs5mWGt4">
+                </iframe>
+            </div>
+            <div class="social-networks">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+            </div>
+            <div class="footer-copyright text-right">
+                <p>Designed & Developed by <a src="https://asiagood.uz"> <span style="color:rgba(235, 26, 26, 0.986)"> AsiaGood</span> </p>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <script src="js/dropdown.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>

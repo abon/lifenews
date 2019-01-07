@@ -1,6 +1,3 @@
-.body {
-  background-color: #ffffff; }
-
 .nav-item-1 {
   text-transform: lowercase; }
 
@@ -303,10 +300,10 @@ main section:nth-child(3) .container-fluid .row .col-md-3 {
   transition: color 0.2s; }
 
 #myFooter .fa-facebook:hover {
-  color: #2b55ff; }
+  color: #314aac; }
 
 #myFooter .fa-facebook:focus {
-  color: #2b55ff; }
+  color: #2c4cce; }
 
 #myFooter .fa-google-plus:hover {
   color: red; }
