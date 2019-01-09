@@ -215,6 +215,13 @@ main section:nth-child(3) .container-fluid .row .col-md-3 {
     font-size: 20px;
     color: white; }
 
+#news2 .card-img-overlay h4 {
+  padding-top: 90px;
+  color: white; }
+  #news2 .card-img-overlay h4 a {
+    font-size: 20px;
+    color: white; }
+
 /*-------------------------------------main end--------------------------------------*/
 #news-header .btn-n {
   line-height: 28px;
