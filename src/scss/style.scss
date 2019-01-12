@@ -83,42 +83,6 @@ body {
     */
 }
 
-/**********************LATEST NEWS**********************/
-ul.timeline {
-  list-style-type: none;
-  position: relative;
-
-}
-
-ul.timeline:before {
-  content: ' ';
-  background: #d4d9df;
-  display: inline-block;
-  position: absolute;
-  left: 29px;
-  width: 2px;
-  height: 100%;
-  z-index: 400;
-}
-
-ul.timeline>li {
-  margin: 20px 0;
-  padding-left: 20px;
-}
-
-ul.timeline>li:before {
-  content: ' ';
-  background: white;
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  border: 3px solid #73f05479;
-  left: 20px;
-  width: 20px;
-  height: 20px;
-  z-index: 400;
-}
-
 /*-------------------------------------header begin--------------------------------------*/
 header {
   background-color: white;
@@ -169,24 +133,6 @@ header {
 
 }
 
-.menu2 {
-  li {
-    display: inline;
-    background-color: #e5e5e5;
-    border: none;
-    padding: 3px 15px;
-    margin: 0 -3px;
-
-    a {
-      text-decoration: none;
-      color: #000;
-
-      &:hover {
-        color: rgb(146, 219, 97);
-      }
-    }
-  }
-}
 
 .btn.btn-1 {
   height: 60%;
@@ -527,3 +473,35 @@ main {
     margin: 0;
   }
 }
+
+/****************************  AFISHA HR *******************************/
+div.hr-or {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+  height: 0px;
+  line-height: 0px;
+}
+
+div.hr-or:before {
+  content: 'OR';
+  background-color: #fff;
+}
+
+div.hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+  height: 0px;
+  line-height: 0px;
+}
+
+.hr-title {
+  background-color: #fff;
+}
+
+/******************************************************************************/
