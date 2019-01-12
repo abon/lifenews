@@ -1,7 +1,19 @@
 .nav-item-1 {
   text-transform: lowercase;
 }
+/*
+#ICarousel img {
+  width: auto;
+  height: 500px;
+  max-height: 225px;
+}
 
+@media (max-width: 688px) {
+  .carousel-item>img {
+      max-height: 146px;
+  }
+}
+*/
 .carousel {
   .carousel-item {
     height: 100px;
