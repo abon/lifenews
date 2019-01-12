@@ -40,34 +40,7 @@
 
 body {
   background-color: #f6f8fd;
-  overflow-x: hidden;
-  /*  
-    aside{
-      .container-fluid{
-        .carousel{
-          .carousel-indicators{
-  
-              margin-bottom: -15px;
-              margin-right: -1050px!important;
-              padding: 0px!important;
-              li{
-                position: relative;
-                -webkit-box-flex: 0;
-                -ms-flex: 0 1 auto;
-                flex: 0 1 auto;
-                width: 20px;
-                height: 20px!important;
-                margin-right: 3px;
-                margin-left: 3px;
-                text-indent: -999px;
-                background-color: rgba(219, 219, 219, 0.5);
-              }
-  
-          }
-        }
-      }
-    }
-    */ }
+  overflow-x: hidden; }
 
 /*-------------------------------------header begin--------------------------------------*/
 header {
@@ -316,7 +289,7 @@ main section:nth-child(3) .container-fluid .row .col-md-3 {
   color: black;
   text-align: center;
   height: 1.5em;
-  opacity: .5; }
+  opacity: 0.5; }
 
 .hr-text:before {
   content: '';
@@ -335,36 +308,6 @@ main section:nth-child(3) .container-fluid .row .col-md-3 {
   padding: 0 .5em;
   line-height: 1.5em;
   color: #818078;
-  background-color: #fdfdf7; }
+  background-color: #f6f8fd; }
 
-/*
-div.hr-or {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eee;
-  text-align: center;
-  height: 0px;
-  line-height: 0px;
-}
-
-div.hr-or:before {
-  content: 'OR';
-  background-color: #fff;
-}
-
-div.hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eee;
-  text-align: center;
-  height: 0px;
-  line-height: 0px;
-}
-
-.hr-title {
-  background-color: #fff;
-}
-*/
 /******************************************************************************/
