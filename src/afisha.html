@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="main.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+
+
 </head>
 
 <body>
@@ -61,7 +70,6 @@
                     <div class="carousel-item carousel-image-1 active">
                         <div class="container">
                             <div class="carousel-caption d-none d-sm-block mb-5">
-                                <h3>Advert 1</h3>
                             </div>
                         </div>
                     </div>
@@ -70,7 +78,6 @@
                     <div class="carousel-item carousel-image-2">
                         <div class="container">
                             <div class="carousel-caption d-none d-sm-block mb-5">
-                                <h3>Advert 2</h3>
                             </div>
                         </div>
                     </div>
@@ -78,7 +85,6 @@
                     <div class="carousel-item carousel-image-3">
                         <div class="container">
                             <div class="carousel-caption d-none d-sm-block  mb-5">
-                                <h3>Advert 3</h3>
                             </div>
                         </div>
                     </div>
@@ -100,74 +106,30 @@
                     <div class="col-md-11 mb-3">
                         <h3 class="lead ">Афиша:</h3>
                         <div class="d-flex ml-3">
-                            <div class="dropdown mr-1">
-                                <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownMenuOffset"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-                                    Рубрики
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Кино</span>
-                                    </label>
-
-                                   
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Концерты</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Театры</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Рестораны</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Выставки</span>
-                                    </label>
-                                </div>
+                            <div class=" mr-1">
+                                <select class="selectpicker" data-style="btn-success" multiple>
+                                    <option>Кино</option>
+                                    <option>Концерты</option>
+                                    <option>Театры</option>
+                                    <option>Выставки</option>
+                                    <option>Рестораны</option>
+                                    <option>Другое</option>
+                                </select>
                             </div>
 
-                            <div class="dropdown mr-1">
-                                <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownMenuOffset"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-                                    По дате
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">самый последний</span>
-                                    </label>
+                            <div >
+                                <select class="selectpicker"  title= "По дате" data-style="btn-success" multiple>
+                        
+                                    <option>Сегодня</option>
+                                    <option>Завтра</option>
+                                    <option>15 января</option>
+                                    <option>16 января</option>
+                                    <option>17 января</option>
+                                    <option>18 января</option>
+                                    <option>19 января</option>
+                                    <option>20 января</option>
+                                </select>
 
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">прошлой недели</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">прошлого месяца</span>
-                                    </label>
-                                </div>
                             </div>
                             <input type="text" class="form-control" aria-label="Search" type="search" placeholder="Напишите ваше ключевое слово">
                             <button class="btn btn-success" type="submit"><i class="fa fa-filter"></i> Фильтр</button>
@@ -971,10 +933,16 @@
                 <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
             </div>
             <div class="footer-copyright text-right">
-                Designed & Developed by <a href="https://"></a>
+                Designed & Developed by AsiaGood <a href="https://"></a>
             </div>
         </footer>
 
+
+        <script>
+            $(".selectpicker").selectpicker({
+                noneSelectedText: 'Выберите категорию' // by this default 'Nothing selected' -->will change to Please Select
+            });
+        </script>
         <script src="js/dropdown.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
