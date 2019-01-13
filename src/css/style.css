@@ -14,30 +14,6 @@
   }
 }
 */
-.carousel .carousel-item {
-  height: 100px;
-  margin: 0 auto; }
-
-.carousel .carousel-inner {
-  width: 100%;
-  max-height: 200px !important; }
-
-.carousel .carousel-image-1 {
-  background: url(../img/banner.PNG);
-  background-size: cover;
-  width: 100%;
-  min-width: 100%; }
-
-.carousel .carousel-image-2 {
-  background: url(../img/banner2.PNG);
-  background-size: cover;
-  width: 100%; }
-
-.carousel .carousel-image-3 {
-  background: url(../img/banner3.PNG);
-  background-size: cover;
-  width: 100%; }
-
 body {
   background-color: #f6f8fd;
   overflow-x: hidden; }
