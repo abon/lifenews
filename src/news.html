@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="main.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
 </head>
 
 <body>
@@ -93,8 +100,6 @@
                 </div>
             </div>
         </header>
-
-
     </div>
     <main>
 
@@ -118,134 +123,37 @@
             </div>
         </section>
 
-
         <section id="news-feed">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-11 mb-3">
-                        <h3 class="lead  ">Сортировка Новостей:</h3>
+                        <h3 class="lead">Сортировка новостей:</h3>
                         <div class="d-flex ml-3">
-                            <div class="dropdown mr-1">
-                                <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownMenuOffset"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-                                    Рубрики новостей
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Криминал</span>
-                                    </label>
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Культура</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Общество</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Политика</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Происшествия</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Экология</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Спорт</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Бизнес</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Реклама</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Интервью</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Аналитика</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">Новости компаний</span>
-                                    </label>
-
-
-                                </div>
+                            <div>
+                                <select class="selectpicker" data-style="btn-success" multiple>
+                                    <option>Криминал</option>
+                                    <option>Культура</option>
+                                    <option>Общество</option>
+                                    <option>Политика</option>
+                                    <option>Экология</option>
+                                    <option>Спорт</option>
+                                    <option>Бизнес</option>
+                                    <option>Реклама</option>
+                                    <option>Интервью</option>
+                                    <option>Аналитика</option>
+                                    <option>Новости компаний</option>
+                                </select>
                             </div>
+                            <div>
+                                <select class="selectpicker" title="По дате" data-style="btn-success" multiple>
+                                    <option>самый последний</option>
+                                    <option>прошлой недели</option>
+                                    <option>прошлого месяца</option>
+                                </select>
 
-                            <div class="dropdown mr-1">
-                                <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownMenuOffset"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-                                    По дате
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">самый последний</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">прошлой недели</span>
-                                    </label>
-
-
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">прошлого месяца</span>
-                                    </label>
-                                </div>
                             </div>
                             <input type="text" class="form-control" aria-label="Search" type="search" placeholder="Напишите ваше ключевое слово">
-                            <button class="btn btn-success" type="submit"><i class="fa fa-search"></i> Поиск</button>
+                            <button class="btn btn-success" type="submit"><i class="fa fa-filter"></i> Фильтр</button>
                         </div>
                     </div>
                 </div>
@@ -537,6 +445,13 @@
                         <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTz=0&amp;height=300&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23FFFFFF&amp;src=en.uz%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;src=205ivnk2lihq5ord4plf7mgf4k%40group.calendar.google.com&amp;color=%238D6F47&amp;src=en.islamic%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Asia%2FSamarkand"
                             style="border-width:0" width="295" height="250" frameborder="0" scrolling="no"></iframe>
 
+                        <div class="row sticky-top">
+                            <div class="card ">
+                                <img class="" src="img/bar.jpeg" height="300px" width="100%" alt="">
+                                <div class="card-img-overlay">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -615,7 +530,11 @@
         </footer>
 
 
-
+        <script>
+            $(".selectpicker").selectpicker({
+                noneSelectedText: 'Рубрики новостей' 
+            });
+        </script>
         <script src="js/dropdown.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>

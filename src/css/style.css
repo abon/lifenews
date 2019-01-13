@@ -311,3 +311,6 @@ main section:nth-child(3) .container-fluid .row .col-md-3 {
   background-color: #f6f8fd; }
 
 /******************************************************************************/
+.affix {
+  top: 50px;
+  position: fixed; }
