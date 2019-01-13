@@ -429,11 +429,11 @@ main {
   color: red;
 }
 
-#myFooter .fa-twitter:hover {
+#myFooter .fa-paper-plane-o:hover {
   color: #00aced;
 }
 
-#myFooter .fa-twitter:focus {
+#myFooter .fa-paper-plane-o:focus {
   color: #00aced;
 }
 
@@ -481,8 +481,17 @@ main {
 }
 
 
-/******************************************************************************/
-.affix {
-  top:50px;
-  position:fixed;
+/***********************************CARD NEWS *******************************************/
+.card-hover .reveal {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  padding: 0;
+}
+
+.card-hover:hover .reveal {
+  height: auto;
+  visibility: visible;
+  opacity: 10;
+  transition: opacity 1s ease;
 }
