@@ -36,7 +36,7 @@
   margin-top: 15%;
   display: block;
   color: #04a192;
-  font-size: 2em;
+  font-size: 1.6em;
   
 }
 
@@ -63,8 +63,8 @@
   display: inline-block;
   border-radius: 250%;
   overflow: hidden;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin: 0 20px 20px 20px;
   text-align: center;
   background: #fff;
@@ -75,21 +75,21 @@
   transition: all 0.4s;
 }
 #circ ul li:hover {
-  border: solid 4px #1ecfbe;
+  border: solid 3px #1ecfbe;
   transition: all 0.2s;
   cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
   h1 {
-    font-size: 4em;
+    font-size: 2em;
   }
 
   .icon {
     position: relative;
-    margin-top: 30%;
+    margin-top: 10%;
     color: #004d40;
-    font-size: 2em;
+    font-size: 1.5em;
    
   }
 
@@ -104,7 +104,7 @@
 }
 @media only screen and (max-width: 690px) {
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   #circ ul li {

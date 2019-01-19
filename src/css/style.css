@@ -1,19 +1,6 @@
 .nav-item-1 {
   text-transform: lowercase; }
 
-/*
-#ICarousel img {
-  width: auto;
-  height: 500px;
-  max-height: 225px;
-}
-
-@media (max-width: 688px) {
-  .carousel-item>img {
-      max-height: 146px;
-  }
-}
-*/
 body {
   background-color: #f6f8fd;
   overflow-x: hidden; }
@@ -25,32 +12,19 @@ header {
     display: block;
     padding-right: 70px !important; }
 
-.logo {
-  vertical-align: middle;
-  padding-top: 15px;
-  margin-left: 15px;
-  width: 100%;
-  height: 100%;
-  max-height: 100%;
-  max-height: 100%; }
+/***********************************NAVBAR*******************************/
+.navbar .nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-left: 0.7em !important;
+  padding-right: 0.7em !important; }
 
-.menu1 {
-  display: block; }
-  .menu1 li {
-    display: inline; }
-    .menu1 li a {
-      text-decoration: none;
-      color: #000000;
-      font-size: 20px;
-      padding: 10px;
-      font-weight: 450; }
-      .menu1 li a:hover {
-        color: #92e247; }
+.navbar .navbar-brand {
+  margin-left: -0.5em; }
 
-.btn.btn-1 {
-  height: 60%;
-  float: right;
-  padding: 0 10px; }
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #3de74b; }
 
 #page-header {
   height: 100px;
@@ -59,7 +33,41 @@ header {
   border-bottom: 1px #eee solid;
   padding-top: 50px; }
 
-/*-------------------------------------header end--------------------------------------*/
+/********************************************SEARCH FORM***********************/
+#navBarSearchForm input[type=text] {
+  width: 200px !important; }
+
+/*-------------------------------------latest news--------------------------------------*/
+ul.timeline {
+  list-style-type: none;
+  position: relative; }
+
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400; }
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px; }
+
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #73f05479;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400; }
+
 /*-------------------------------------main begin--------------------------------------*/
 main .container .row .lead {
   background-color: #66da2346;

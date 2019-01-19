@@ -1,20 +1,7 @@
-
 .nav-item-1 {
   text-transform: lowercase;
 }
-/*
-#ICarousel img {
-  width: auto;
-  height: 500px;
-  max-height: 225px;
-}
 
-@media (max-width: 688px) {
-  .carousel-item>img {
-      max-height: 146px;
-  }
-}
-*/
 body {
   background-color: #f6f8fd;
   overflow-x: hidden;
@@ -38,44 +25,30 @@ header {
   }
 }
 
-.logo {
-  vertical-align: middle;
-  padding-top: 15px;
-  margin-left: 15px;
-  width: 100%;
-  height: 100%;
-  max-height: 100%;
-  max-height: 100%;
-}
 
-.menu1 {
-  display: block;
 
-  li {
-    display: inline;
+/***********************************NAVBAR*******************************/
 
-    a {
-      text-decoration: none;
-      color: #000000;
-      font-size: 20px;
-      padding: 10px;
-      font-weight: 450;
-
-      &:hover {
-        color: rgb(146, 226, 71);
-      }
-    }
+.navbar {
+  .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 0.7em !important;
+    padding-right: 0.7em !important;
 
   }
 
+
+  .navbar-brand {
+    margin-left: -0.5em;
+  }
 }
 
-
-.btn.btn-1 {
-  height: 60%;
-  float: right;
-  padding: 0 10px;
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(61, 231, 75);
 }
+
 
 
 #page-header {
@@ -86,8 +59,44 @@ header {
   padding-top: 50px;
 }
 
-/*-------------------------------------header end--------------------------------------*/
+/********************************************SEARCH FORM***********************/
+#navBarSearchForm input[type=text]{width:200px !important;}
 
+
+/*-------------------------------------latest news--------------------------------------*/
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline>li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul.timeline>li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #73f05479;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
 
 /*-------------------------------------main begin--------------------------------------*/
 main {
@@ -424,6 +433,7 @@ main {
   height: 1.5em;
   opacity: 0.5;
 }
+
 .hr-text:before {
   content: '';
   background: linear-gradient(to right, transparent, #818078, transparent);
@@ -433,6 +443,7 @@ main {
   width: 100%;
   height: 1px;
 }
+
 .hr-text:after {
   content: attr(data-content);
   position: relative;

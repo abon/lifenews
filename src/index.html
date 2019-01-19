@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -9,14 +8,352 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+
     <script src="main.js"></script>
+
 </head>
 
 <body>
-
-    <section id="showcase">
+    <header>
         <div class="container-fluid">
             <div class="row">
+                <div id="top_banner" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/banner.PNG" alt="">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/banner2.PNG" alt="">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/banner3.PNG" alt="">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#top_banner" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#top_banner" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo2.png" width="120" height="60" alt="">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav pb-4" style="font-size: 20px">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link text-uppercase" style="color: rgb(132, 241, 58)">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="news.html" class="nav-link  text-uppercase">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="map.html" class="nav-link  text-uppercase">Карта города</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="afisha.html" class="nav-link  text-uppercase">Афиша</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shopping.html" class="nav-link  text-uppercase">Шоппинг</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline pb-4 ml-2 my-lg-0" id="navBarSearchForm">
+                        <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                      </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <img src="img/header.jpg" style="width: 100%" alt="">
+            </div>
+        </div>
+
+        <section>
+            <div class="container-fluid " style="background-color: #163273;">
+                <div class="row py-2">
+                    <div class="col-md-8">
+                        <span class=" mr-1 text-warning font-weight-light">Курсы ЦБ:</span>
+                        <span><i style="font-size: 8px;
+                             vertical-align: middle">
+                            </i><b class="text-white lead"><i style="font-size: 13px" class="fa fa-usd  text-white mr-1">:</i><small>8337.07</b><i
+                                class="fa fa-caret-up text-success ml-1" style="font-size: 15px"></i>
+                        </span>
+                        <span><i style="font-size: 8px;
+                            vertical-align: middle" class="ml-3">
+                            </i><b class="text-white lead"><i style="font-size: 13px" class="fa fa-euro  text-white mr-1">:</i><small>9582.03</b><i
+                                class="fa fa-caret-down text-danger ml-1" style="font-size: 15px"></i>
+                        </span>
+
+                        <span><i style="font-size: 8px;
+                            vertical-align: middle" class="ml-3">
+                            </i><b class="text-white lead"><i style="font-size: 13px" class="fa fa-rub  text-white mr-1">:</i><small>124.94</b><i
+                                class="fa fa-caret-up text-success ml-1" style="font-size: 15px"></i>
+                        </span>
+                        <i class="fa fa-ellipsis-v text-white ml-3" style="font-size: 18px"></i>
+
+                        <span style="font-size: 15px"><i style="vertical-align: middle" class="ml-3">
+                            </i><span class="text-warning"> Сегодня :</span>
+                            <span class="text-white"> -9... -7 °С</span>
+                            <i class="fa fa-soundcloud pl-3 p-1" style="font-size: 15px; color:#ADD8E6"></i>
+                            <span class="text-white"> Облачно, без осадков</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid  bg-white" style="font-size: 15px">
+                <div class="row">
+                    <div class="col-md-12 pt-3">
+                        <h4 class="lead p-1l">ПОСЛЕДНИЕ НОВОСТИ</h4>
+                        <ul class="timeline">
+                            <li>
+                                <a href="news.html" target="blank">Уникальное новогоднее шоу</a>
+                                <a href="news.html" class="float-right">2 часа назад </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam nihil maxime
+                                    voluptate accusamus dolore.</p>
+                            </li>
+                            <li>
+                                <a href="news.html" target="blank">Уникальное новогоднее шоу</a>
+                                <a href="news.html" class="float-right">2 часа назад </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam nihil maxime
+                                    voluptate accusamus dolore.</p>
+                            </li>
+
+                            <li>
+                                <a href="news.html" target="blank">Уникальное новогоднее шоу</a>
+                                <a href="news.html" class="float-right">2 часа назад </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam nihil maxime
+                                    voluptate accusamus dolore.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="news1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-xs-10">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/rek1.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/arc.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/art2.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/barr.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/barr.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/lights.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/arc.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/arc.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/rek1.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/art2.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="rek1" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img width="100%" height="560px" src="img/lights.jpg" alt="">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img width="100%" height="560px" src="img/rek1.jpg" alt="">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img width="100%" height="560px" src="img/arc.jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#rek1" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#rek1" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container-fluid mt-3">
+
             <div id="top_banner" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -36,679 +373,484 @@
                     <span class="carousel-control-next-icon"></span>
                 </a>
             </div>
+
         </div>
-        </div>
-    </section>
 
 
-    <header>
-        <div class="container-fluid">
-            <div class="row p-3">
-                <div class="col-md-1 logo">
-                    <a href="#">
-                        <img width="150" height="80" src="img/logo.png" alt="">
-                    </a>
+        <section id="news1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 mt-3">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/art2.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/art.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/lights.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class="lead font-weight-light">17:43, Вчера<i
+                                                        class="fa fa-comment"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/art1.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/art1.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/lights.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/arc.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/rek1.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-6  text-center bg-white ">
+                                <h4 class="lead">Подписаться на новости Ташкента</h4>
+                                <p class="lead">Мы не будем беспокоить Вас по мелочам</p>
+                                <div class="form-group col-md-10 ml-5">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="lifenews@mail.ru">
+                                </div>
+
+                                <button type="button" class="btn btn-outline-success text-capitalize">подписаться</button>
+                                <div class="row mt-4">
+                                    <div class="col-md-4 lead">Мы в соцсетях:
+                                    </div>
+                                    <div class="col-md-1 "><a href=""><i class="fa fa-vk " style="font-size: 30px; color: #45668e;"></i></a></div>
+                                    <div class="col-md-1 "><a href=""><i class="fa fa-facebook " style="font-size: 30px; color:#3b5998;"></i></a></div>
+                                    <div class="col-md-1 "><a href=""><i class="fa fa-twitter" style="font-size: 30px; color:#00aced; "></i></a></div>
+                                    <div class="col-md-1 "><a href=""><i class="fa fa-odnoklassniki " style="font-size: 30px;  color: #ed812b "></i></a></div>
+                                    <div class="col-md-1 "><a href=""><i class="fa fa-telegram " style="font-size: 30px;  color: #0088cc "></i></a></div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/card.jpeg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img width="100%" height="270px" src="img/art2.jpg" alt="">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
+                                        <i class="fa fa-camera ml-2 text-white" style="font-size: 15px"></i>
+                                        <i class="fa ml-2  fa-video-camera text-white" style="font-size: 15px"></i>
+                                        <a href="">
+                                            <h4 class="text-white font-weight-bold"> У белгородца за неуплату отключили
+                                                газ и
+                                                арестовали имущество <span class=" lead" style="font-size: 15px">17:43,
+                                                    Вчера<i class="fa fa-comment ml-2" style="font-size: 15px"></i></span></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-9 ml-2">
-                    <div class="row ">
+            </div>
+        </section>
 
-                        <ul class="menu1">
-                            <li><a href="index.html" style="color: rgb(142, 226, 120)">Главная</a></li>
-                            <li><a href="news.html">Новости</a></li>
-                            <li><a href="afishapod.html">Досуг</a></li>
-                            <li><a href="#">Шоппинг</a></li>
-                            <li><a href="#">Карта города</a></li>
-                            <li><a href="afisha.html">Афиша</a></li>
+        <div class="row pt-3 pl-2 pr-2">
+            <div class="col-md-12">
+                <div class="carousel slide" data-ride="carousel" id="afishaCarusel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title ">
+                                                <h4 class="text-white font-weight-bold">Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title text-white">
+                                                <h4>Две королевы</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md col">
+                                    <div class="card">
+                                        <img class="card-img-top" height="500px" width="100%" src="img/afisha.jpg" alt="">
+                                        <div class="card-img-overlay">
+                                            <a href="#" class="card-title">
+                                                <h4>Akvamen</h4>
+                                            </a>
+                                            <p class="card-text">boevik,triller, priklyuchenie SSHA, 2018</p>
+                                            <div class="row">
+                                                <a class="btn"><i class="fa fa-calendar"></i></a>
+                                                <a class="btn"><i class="fa fa-play"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#afishaCarusel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#afishaCarusel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </main>
+
+
+        <footer id="myFooter" class="bg-dark mt-3">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Экология</h5>
+                        <ul>
+                            <li><a href="#">Политика</a></li>
+                            <li><a href="#">Происшествия</a></li>
+                            <li><a href="#">Экология</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
 
-    <div>
-        <header id="page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 m-auto text-center">
-                    </div>
-                </div>
+                <iframe id="map-container" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyBDIa_dNO_W8Oi6A3CSTrKbWbWrs5mWGt4">
+                </iframe>
             </div>
-        </header>
-    </div>
-    <main>
-
-        <section>
-            <div class="container-fluid bg-white">
-                <img src="images/banner.PNG" class="img-fluid" style="width: 100%" alt="">
-                <div class="row pt-1">
-                    <div class="col-md-8 pl-5 p-1">
-                        <span><i style="font-size: 25px;
-                                 vertical-align: middle" class="fa fa-dollar pr-3">
-                            </i><b>USD: </b>66.43p
-                        </span>
-                        <span><i class="fa fa-euro pl-3 p-1" style="font-size: 25px;
-                                                     vertical-align: middle"></i>
-                            <b>EUR: </b>75.39p
-                        </span>
-                        <span>Сегодня
-                            -9... -7 °С
-                            <i class="fa fa-cloud pl-3 p-1" style="font-size: 20px"></i>
-                            Облачно, без осадков
-                        </span>
-                    </div>
-                </div>
+            <div class="social-networks">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
             </div>
-        </section>
-
-        <section>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-md-8" href="#">
-                                <div class="card">
-                                    <img class="" src="img/gaz.jpg" " alt="">
-                                    <div class="
-                                        card-img-overlay">
-                                    <a href="#" class="btn btn-outline-light">должники</a>
-                                    <h4 class="card-title"><a href="#">
-                                            У белгородца за неуплату отключили газ и арестовали имущество</h4>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img class="" src="img/gaz.jpg" " alt="">
-                                    <div class="
-                                    card-img-overlay">
-                                <a href="#" class="btn btn-outline-light">должники</a>
-                                <h4 class="card-title"><a href="#">
-                                        У белгородца за неуплату отключили газ и арестовали имущество</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="" src="img/gaz.jpg" " alt="">
-                                <div class="
-                                card-img-overlay">
-                            <a href="#" class="btn btn-outline-light">должники</a>
-                            <h4 class="card-title"><a href="#">
-                                    У белгородца за неуплату отключили газ и арестовали имущество</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="" src="img/gaz.jpg" " alt="">
-                                <div class="
-                            card-img-overlay">
-                        <a href="#" class="btn btn-outline-light">должники</a>
-                        <h4 class="card-title"><a href="#">
-                                У белгородца за неуплату отключили газ и арестовали имущество</h4>
-                        </a>
-                    </div>
-                </div>
+            <div class="footer-copyright text-right">
+                <p>Designed & Developed by <a src="https://asiagood.uz"> <span style="color:rgba(235, 26, 26, 0.986)">
+                            AsiaGood</span> </p>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="" src="img/gaz.jpg" " alt="">
-                         <div class=" card-img-overlay">
-                    <a href="#" class="btn btn-outline-light">должники</a>
-                    <h4 class="card-title"><a href="#">
-                            У белгородца за неуплату отключили газ и арестовали имущество</h4>
-                    </a>
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <!--<img class="" src="images/gaz.jpg" " alt="">-->
-                    <div class="card-img-overlay">
-                        <a href="#" class="btn btn-light">должники</a>
-                        <h4 class="card-title"><a href="#">
-                                У белгородца за неуплату отключили газ и арестовали имущество</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-        </section>
-
-
-        <section id="news1">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-        <div class="
-                                        card-img-overlay">
-                                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                                    <i class="fa fa-camera ml-2 text-white"></i>
-                                    <a href="">
-                                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                            газ и
-                                            арестовали имущество</h4>
-                                    </a>
-                                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                                class="fa fa-comment ml-2"></i></a></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img class="" src="img/color-card-img-4.jpg" " alt="">
-        <div class="
-                                    card-img-overlay">
-                                <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                                <i class="fa fa-camera ml-2 text-white"></i>
-                                <a href="">
-                                    <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                        газ и
-                                        арестовали имущество</h4>
-                                </a>
-                                <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                            class="fa fa-comment ml-2"></i></a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img class="" src="img/color-card-img-4.jpg" " alt="">
-        <div class="
-                                card-img-overlay">
-                            <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                            <i class="fa fa-camera ml-2 text-white"></i>
-                            <a href="">
-                                <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                    газ и
-                                    арестовали имущество</h4>
-                            </a>
-                            <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                        class="fa fa-comment ml-2"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card">
-                        <img class="" src="img/color-card-img-4.jpg" " alt="">
-        <div class=" card-img-overlay">
-                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                        <i class="fa fa-camera ml-2 text-white"></i>
-                        <a href="">
-                            <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                газ и
-                                арестовали имущество</h4>
-                        </a>
-                        <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                    class="fa fa-comment ml-2"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img class="" src="img/color-card-img-4.jpg" " alt="">
-<div class=" card-img-overlay">
-                                <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                                <i class="fa fa-camera ml-2 text-white"></i>
-                                <i class="fa fa-video-camera ml-2 text-white"></i>
-                                <a href="">
-                                    <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                        газ и
-                                        арестовали имущество</h4>
-                                </a>
-                                <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                            class="fa fa-comment ml-2"></i></a></p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="" src="img/color-card-img-4.jpg" " alt="">
-<div class=" card-img-overlay">
-                            <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                            <i class="fa fa-camera ml-2 text-white"></i>
-                            <a href="">
-                                <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                    газ и
-                                    арестовали имущество</h4>
-                            </a>
-                            <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                        class="fa fa-comment ml-2"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="" src="img/color-card-img-4.jpg" " alt="">
-<div class=" card-img-overlay">
-                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                        <i class="fa fa-camera ml-2 text-white"></i>
-                        <i class="fa fa-video-camera ml-2 text-white"></i>
-
-                        <a href="">
-                            <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                газ и
-                                арестовали имущество</h4>
-                        </a>
-                        <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                    class="fa fa-comment ml-2"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="" src="img/color-card-img-4.jpg" " alt="">
-<div class=" card-img-overlay">
-                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                        <i class="fa fa-camera ml-2 text-white"></i>
-                        <i class="fa fa-video-camera ml-2 text-white"></i>
-
-                        <a href="">
-                            <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                газ и
-                                арестовали имущество</h4>
-                        </a>
-                        <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                    class="fa fa-comment ml-2"></i></a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-<div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-                    <i class="fa fa-video-camera ml-2 text-white"></i>
-
-                    <a href="">
-                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                            газ и
-                            арестовали имущество</h4>
-                    </a>
-                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                class="fa fa-comment ml-2"></i></a></p>
-                </div>
-            </div>
-            </div>
-
-
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-<div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-                    <a href="">
-                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                            газ и
-                            арестовали имущество</h4>
-                    </a>
-                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                class="fa fa-comment ml-2"></i></a></p>
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="" src="img/rek.jpeg" " alt="">
-<div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
-        </section>
-
-
-        <section id="showcase">
-            <div class="container-fluid mt-3 mb-3">
-                <div class="carousel slide" id="myCarousel" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-                        <li data-slide-to="1" data-target="#myCarousel"></li>
-                        <li data-slide-to="2" data-target="#myCarousel"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-image-1 active">
-                            <div class="container">
-                                <div class="carousel-caption d-none d-sm-block mb-5">
-                                    <h3>Advert 1</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item carousel-image-2">
-                            <div class="container">
-                                <div class="carousel-caption d-none d-sm-block mb-5">
-                                    <h3>Advert 2</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item carousel-image-3">
-                            <div class="container">
-                                <div class="carousel-caption d-none d-sm-block  mb-5">
-                                    <h3>Advert 3</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-
-                        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="news1">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-                    <div class="
-                                        card-img-overlay">
-                                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                                    <i class="fa fa-camera ml-2 text-white"></i>
-                                    <i class="fa fa-video-camera ml-2 text-white"></i>
-                                    <a href="">
-                                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                            газ и
-                                            арестовали имущество</h4>
-                                    </a>
-                                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                                class="fa fa-comment ml-2"></i></a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <img class="" src="img/color-card-img-4.jpg" " alt="">
-                    <div class="
-                                    card-img-overlay">
-                                <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                                <i class="fa fa-camera ml-2 text-white"></i>
-                                <a href="">
-                                    <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                        газ и
-                                        арестовали имущество</h4>
-                                </a>
-                                <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                            class="fa fa-comment ml-2"></i></a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img class="" src="img/color-card-img-4.jpg" " alt="">
-                    <div class="
-                                card-img-overlay">
-                            <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                            <i class="fa fa-camera ml-2 text-white"></i>
-                            <i class="fa fa-video-camera ml-2 text-white"></i>
-                            <a href="">
-                                <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                    газ и
-                                    арестовали имущество</h4>
-                            </a>
-                            <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                        class="fa fa-comment ml-2"></i></a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img class="" src="img/color-card-img-4.jpg" " alt="">
-                    <div class="
-                            card-img-overlay">
-                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                        <i class="fa fa-camera ml-2 text-white"></i>
-                        <a href="">
-                            <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                газ и
-                                арестовали имущество</h4>
-                        </a>
-                        <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                    class="fa fa-comment ml-2"></i></a></p>
-                    </div>
-                </div>
-            </div>
-
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img class="" src="img/color-card-img-4.jpg" " alt="">
-            <div class="
-                            card-img-overlay">
-                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                        <i class="fa fa-camera ml-2 text-white"></i>
-                        <i class="fa fa-video-camera ml-2 text-white"></i>
-                        <a href="">
-                            <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                газ и
-                                арестовали имущество</h4>
-                        </a>
-                        <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                    class="fa fa-comment ml-2"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-            <div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-                    <a href="">
-                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                            газ и
-                            арестовали имущество</h4>
-                    </a>
-                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                class="fa fa-comment ml-2"></i></a></p>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-            <div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-                    <a href="">
-                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                            газ и
-                            арестовали имущество</h4>
-                    </a>
-                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                class="fa fa-comment ml-2"></i></a></p>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-            <div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-                    <a href="">
-                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                            газ и
-                            арестовали имущество</h4>
-                    </a>
-                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                class="fa fa-comment ml-2"></i></a></p>
-                </div>
-            </div>
-            </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-md-6">
-                    <div class="card">
-                        <img class="" src="img/color-card-img-4.jpg" " alt="">
-                            <div class="
-                            card-img-overlay">
-                        <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                        <i class="fa fa-camera ml-2 text-white"></i>
-                        <i class="fa fa-video-camera ml-2 text-white"></i>
-                        <a href="">
-                            <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                                газ и
-                                арестовали имущество</h4>
-                        </a>
-                        <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                    class="fa fa-comment ml-2"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-            <div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-                    <i class="fa fa-video-camera ml-2 text-white"></i>
-                    <a href="">
-                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                            газ и
-                            арестовали имущество</h4>
-                    </a>
-                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                class="fa fa-comment ml-2"></i></a></p>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="" src="img/color-card-img-4.jpg" " alt="">
-            <div class=" card-img-overlay">
-                    <a href="#" class="btn bg-transparent border-light text-white ">транспорт</a>
-                    <i class="fa fa-camera ml-2 text-white"></i>
-                    <i class="fa fa-video-camera ml-2 text-white"></i>
-                    <a href="">
-                        <h4 class="text-white font-weight-bold "> У белгородца за неуплату отключили
-                            газ и
-                            арестовали имущество</h4>
-                    </a>
-                    <p class="text-light align-text-bottom">10:09, 30 декабря 2018 г.<a href="#" class="text-white"><i
-                                class="fa fa-comment ml-2"></i></a></p>
-                </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-        </section>
-    </main>
-
-
-    <footer id="myFooter" class="bg-dark mt-3">
-        <div class="container ">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5>Экология</h5>
-                    <ul>
-                        <li><a href="#">Политика</a></li>
-                        <li><a href="#">Происшествия</a></li>
-                        <li><a href="#">Экология</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Экология</h5>
-                    <ul>
-                        <li><a href="#">Политика</a></li>
-                        <li><a href="#">Происшествия</a></li>
-                        <li><a href="#">Экология</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Экология</h5>
-                    <ul>
-                        <li><a href="#">Политика</a></li>
-                        <li><a href="#">Происшествия</a></li>
-                        <li><a href="#">Экология</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Экология</h5>
-                    <ul>
-                        <li><a href="#">Политика</a></li>
-                        <li><a href="#">Происшествия</a></li>
-                        <li><a href="#">Экология</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <iframe id="map-container" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyBDIa_dNO_W8Oi6A3CSTrKbWbWrs5mWGt4">
-            </iframe>
-        </div>
-        <div class="social-networks">
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-        </div>
-        <div class="footer-copyright text-right">
-            <p>Designed & Developed by <a src="https://asiagood.uz"> <span style="color:rgba(235, 26, 26, 0.986)">
-                        AsiaGood</span> </p>
-        </div>
-    </footer>
+        </footer>
 
 
 
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
