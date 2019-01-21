@@ -1,90 +1,29 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Сайт Ташкента lifenews.uz - лента новостей и последние события в городе</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="main.js"></script>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Сайт Ташкента lifenews.uz - лента новостей и последние события в городе</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="main.js"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+
+
+
 </head>
 
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row p-3">
-                <div class="col-md-1 logo">
-                    <a href="#">
-                        <img width="150" height="80" src="img/logo.png" alt="">
-                    </a>
-
-                </div>
-                <div class="col-md-9 ml-2">
-                    <div class="row ">
-                        <ul class="menu1">
-                            <li><a href="index.html">Главная</a></li>
-                            <li><a href="news.html">Новости</a></li>
-                            <li><a href="podrob.html">Досуг</a></li>
-                            <li><a href="#">Шоппинг</a></li>
-                            <li><a href="#">Карта города</a></li>
-                            <li><a href="afisha.html" style="color: rgb(142, 226, 120)">Афиша</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div>
-        <header id="page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 m-auto text-center">
-                    </div>
-                </div>
-            </div>
-        </header>
-    </div>
-
-    <section>
-        <div class="container-fluid bg-white">
-            <img src="images/banner.PNG" class="img-fluid" style="width: 100%" alt="">
-            <div class="row pt-1">
-                <div class="col-md-8 pl-5 p-1">
-                    <span><i style="font-size: 25px;
-                             vertical-align: middle" class="fa fa-dollar pr-3">
-                        </i><b>USD: </b>66.43p
-                    </span>
-                    <span><i class="fa fa-euro pl-3 p-1" style="font-size: 25px;
-                                                 vertical-align: middle"></i>
-                        <b>EUR: </b>75.39p
-                    </span>
-                    <span>Сегодня
-                        -9... -7 °С
-                        <i class="fa fa-cloud pl-3 p-1" style="font-size: 20px"></i>
-                        Облачно, без осадков
-                    </span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <main>
-      
-    <section id="showcase">
-            <div class="container-fluid">
-                <div class="row">
+            <div class="row">
                 <div id="top_banner" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -105,14 +44,93 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo2.png" width="120" height="60" alt="">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav pb-4" style="font-size: 20px">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link text-uppercase">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="news.html" class="nav-link  text-uppercase">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="map.html" class="nav-link  text-uppercase">Карта города</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="afisha.html" class="nav-link  text-uppercase" style="color: rgb(132, 241, 58)">Афиша</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shopping.html" class="nav-link  text-uppercase">Шоппинг</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline pb-4 ml-2 my-lg-0" id="navBarSearchForm">
+                        <input type="text" class="form-control mr-sm-2" placeholder="Поиск">
+                    </form>
+                    <ul class="languagepicker roundborders pb-5">
+                        <li>
+                            <a href="#nl">
+                        <li><img src="img/rus.png" />Русский</li></a>
+                        <a href="#en">
+                            <li><img src="img/uzb.png" />O'zbekcha</li>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </section>
+        </nav>
 
+        <div class="container-fluid">
+            <div class="row">
+                <img src="img/header.jpg" style="width: 100%" alt="">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid " style="background-color: #163273;">
+            <div class="row py-2">
+                <div class="col-md-8">
+                    <span class=" mr-1 text-warning font-weight-light">Курсы ЦБ:</span>
+                    <span><i style="font-size: 8px;
+                             vertical-align: middle">
+                        </i><b class="text-white lead"><i style="font-size: 13px" class="fa fa-usd  text-white mr-1">:</i>8337.07</b><i
+                            class="fa fa-caret-up text-success ml-1" style="font-size: 15px"></i>
+                    </span>
+                    <span><i style="font-size: 8px;
+                            vertical-align: middle" class="ml-3">
+                        </i><b class="text-white lead"><i style="font-size: 13px" class="fa fa-euro  text-white mr-1">:</i>9582.03</b><i
+                            class="fa fa-caret-down text-danger ml-1" style="font-size: 15px"></i>
+                    </span>
+
+                    <span><i style="font-size: 8px;
+                            vertical-align: middle" class="ml-3">
+                        </i><b class="text-white lead"><i style="font-size: 13px" class="fa fa-rub  text-white mr-1">:</i>124.94</b><i
+                            class="fa fa-caret-up text-success ml-1" style="font-size: 15px"></i>
+                    </span>
+                    <i class="fa fa-ellipsis-v text-white ml-3" style="font-size: 18px"></i>
+
+                    <span style="font-size: 15px"><i style="vertical-align: middle" class="ml-3">
+                        </i><span class="text-warning"> Сегодня :</span>
+                        <span class="text-white"> -9... -7 °С</span>
+                        <i class="fa fa-soundcloud pl-3 p-1" style="font-size: 15px; color:#ADD8E6"></i>
+                        <span class="text-white"> Облачно, без осадков</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
         <section id="news-feed">
-            <div class="container-fluid">
+            <div class="container-fluid bg-white">
                 <div class="row">
                     <div class="col-md-11 mb-3">
-                        <h3 class="lead ">Афиша:</h3>
+                        <p class="lead">Афиша:</p>
                         <div class="d-flex ml-3">
                             <div>
                                 <select class="selectpicker" data-style="btn-outline-success border-success" multiple>
@@ -156,7 +174,7 @@
                         <div class="row">
                             <div class="col-md-3 mt-3">
                                 <div class="card border-white" width="50%">
-                                    <img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="..." >
+                                <a href="afishapod.html"><img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="..."></a>
                                     <div class="card-body">
                                         <h5 class="card-title">Бамблби</h5>
                                         <small>боевик, приключения, США,</small>
@@ -171,8 +189,8 @@
 
                             <div class="col-md-3 mt-3">
                                 <div class="card border-white" width="50%">
-                                    <img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                        <a href="afishapod.html"><img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="..."></a>
+                                        <div class="card-body">
                                         <h5 class="card-title">Бамблби</h5>
                                         <small>боевик, приключения, США,</small>
                                     </div>
@@ -186,8 +204,8 @@
 
                             <div class="col-md-3 mt-3">
                                 <div class="card border-white" width="50%">
-                                    <img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                        <a href="afishapod.html"><img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="..."></a>
+                                        <div class="card-body">
                                         <h5 class="card-title">Бамблби</h5>
                                         <small>боевик, приключения, США,</small>
                                     </div>
@@ -201,8 +219,8 @@
 
                             <div class="col-md-3 mt-3">
                                 <div class="card border-white" width="50%">
-                                    <img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                        <a href="afishapod.html"><img src="img/afisha.jpg" width="100%" height="350px" class="card-img-top" alt="..."></a>
+                                        <div class="card-body">
                                         <h5 class="card-title">Бамблби</h5>
                                         <small>боевик, приключения, США,</small>
                                     </div>
@@ -240,7 +258,7 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
+                                      <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -269,8 +287,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -300,8 +318,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -329,8 +347,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -379,8 +397,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -408,8 +426,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -439,8 +457,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -468,8 +486,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="#">
@@ -521,8 +539,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -550,8 +568,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -581,8 +599,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -610,8 +628,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -710,8 +728,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -739,8 +757,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -770,8 +788,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -799,8 +817,8 @@
                                 <div class="card border-white mt-3">
                                     <div class="row ">
                                         <div class="col-md-4">
-                                            <img src="img/afisha.jpg" height="200px" width="110%">
-                                        </div>
+                                                <a href="afishapod.html"><img src="img/afisha.jpg" height="200px" width="110%"></a>
+                                            </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <a href="afishapod.html">
@@ -838,65 +856,49 @@
             </div>
         </section>
 
-
-
-
-        <footer id="myFooter" class="bg-dark mt-3">
-            <div class="container ">
+        <footer id="myFooter" class="bg-dark mt-4">
+            <div class="container-fluid ">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <h5>Экология</h5>
-                        <ul>
-                            <li><a href="#">Политика</a></li>
-                            <li><a href="#">Происшествия</a></li>
-                            <li><a href="#">Экология</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h5>Экология</h5>
-                        <ul>
-                            <li><a href="#">Политика</a></li>
-                            <li><a href="#">Происшествия</a></li>
-                            <li><a href="#">Экология</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h5>Экология</h5>
-                        <ul>
-                            <li><a href="#">Политика</a></li>
-                            <li><a href="#">Происшествия</a></li>
-                            <li><a href="#">Экология</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h5>Экология</h5>
-                        <ul>
-                            <li><a href="#">Политика</a></li>
-                            <li><a href="#">Происшествия</a></li>
-                            <li><a href="#">Экология</a></li>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <ul class="menuf">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="news.html">Новости</a></li>
+                                <li><a href="map.html">Карта города</a></li>
+                                <li><a href="afisha.html" style="color: rgb(132, 241, 58)">Афиша</a></li>
+                                <li><a href="shopping.html">Шоппинг</a></li>
                         </ul>
                     </div>
                 </div>
-
-                <iframe id="map-container" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyBDIa_dNO_W8Oi6A3CSTrKbWbWrs5mWGt4">
-                </iframe>
+                <div class="row">
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d191807.80051052314!2d69.24953753417967!3d41.30893142142385!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1547903516822"
+                            width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+                    <div class="col-md-6">
+                        <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur
+                            delectus possimus quaerat quo quos soluta totam! Ad aperiam error tempora. Animi architecto
+                            eius
+                            odit porro quasi ratione, repellat ut.</p>
+                    </div>
+                </div>
             </div>
             <div class="social-networks">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                <span class="lead text-primary">Присоединяйтесь к нам :</span>
+                <a href="#" class="twitter"><i class="fa fa-telegram"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" class="google"><i class="fa fa-instagram"></i></a>
             </div>
             <div class="footer-copyright text-right">
-                Designed & Developed by AsiaGood <a href="https://"></a>
+                <p>Designed & Developed by <a src="https://asiagood.uz" style="color: #e73159"> AsiaGood </p>
             </div>
         </footer>
-
 
         <script>
             $(".selectpicker").selectpicker({
                 noneSelectedText: 'Выберите категорию' // by this default 'Nothing selected' -->will change to Please Select
             });
         </script>
+
         <script src="js/dropdown.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>

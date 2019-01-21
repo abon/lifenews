@@ -11,18 +11,6 @@ body {
 header {
   background-color: white;
 
-  .container-fluid {
-    .row {
-      .col-md-10 {
-        .row:nth-child(2) {
-          .col-md-2 {
-            display: block;
-            padding-right: 70px !important;
-          }
-        }
-      }
-    }
-  }
 }
 
 
@@ -31,8 +19,9 @@ header {
 
 .navbar {
 
-  height: 95px;
-
+min-height: 110px;
+  position: relative;
+  
   .nav-link {
     font-size: 18px;
     text-transform: uppercase;
@@ -67,23 +56,23 @@ header {
 
 
 
-/***********************************SOCIAL SITES SHARE*****************************/
-
+/***********************************LANGUAGE*****************************/
 .languagepicker {
 	background-color: #FFF;
 	display: inline-block;
 	padding: 0;
-	height: 40px;
+	height: 10px;
 	overflow: hidden;
 	transition: all .3s ease;
 	margin: 0 50px 10px 0;
-	vertical-align: top;
+  vertical-align: top;
+  margin-left: 5px;
 	float: left;
 }
 
 .languagepicker:hover {
 	/* don't forget the 1px border */
-	height: 78px;
+	height: 81px;
 }
 
 .languagepicker a{
@@ -125,6 +114,9 @@ header {
 }
 
 
+
+
+
 /*-------------------------------------latest news--------------------------------------*/
 ul.timeline {
   list-style-type: none;
@@ -161,143 +153,6 @@ ul.timeline>li:before {
 }
 
 /*-------------------------------------main begin--------------------------------------*/
-main {
-  .container .row .lead {
-    background-color: #66da2346;
-    font-size: 30px;
-  }
-
-  section:nth-child(1) {
-    .container-fluid {
-      .row {
-        margin-right: 0px !important;
-        margin-left: 0px !important;
-        background-color: white;
-
-        .col-md-8 {
-          span:nth-child(1) {
-            border-right: 1px solid #c1c1c1;
-            padding-right: 15px;
-
-          }
-
-
-          span:nth-child(2) {
-            border-right: 1px solid #c1c1c1;
-            padding-right: 15px;
-          }
-
-          span:nth-child(3) {
-            padding-left: 15px;
-
-          }
-        }
-      }
-    }
-  }
-
-  section:nth-child(2) {
-    background-color: white;
-    padding-top: 10px;
-    margin-top: 15px;
-
-    .container {
-      width: 100%;
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-      margin-right: 0px !important;
-      margin-left: 30px !important;
-
-      .row {
-        .hotnew {
-          margin-left: -15px;
-          background-color: #61d41d;
-          color: white;
-          padding: 5px;
-        }
-
-        a {
-
-          color: #000;
-        }
-
-        .col-md-6:nth-child(1) {
-          a {
-            font-size: 25px;
-          }
-        }
-
-        .col-md-6:nth-child(2) {}
-      }
-    }
-  }
-
-  section:nth-child(3) {
-    .container-fluid {
-      .row {
-        .col-md-9 {
-          .row {
-            .col-md-8 {
-              .card {
-                margin: 15px 0;
-
-                .card-img-overlay {
-                  h4 {
-                    padding-top: 100px;
-                    color: white;
-
-                    a {
-                      color: white;
-                    }
-                  }
-                }
-              }
-            }
-
-            .col-md-4 {
-              margin: 15px 0;
-
-              .card-img-overlay {
-                h4 {
-                  padding-top: 100px;
-                  color: white;
-
-                  a {
-                    color: white;
-                  }
-                }
-              }
-            }
-          }
-        }
-
-        .col-md-3 {
-          margin: 15px 0;
-
-          .card-img-overlay {
-            h4 {
-              padding-top: 380px;
-              color: white;
-
-              a {
-                color: white;
-              }
-            }
-          }
-
-          .card {
-            background-image: url("../images/color-card-img-4.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100% !important;
-          }
-
-        }
-      }
-
-    }
-  }
-}
 
 #news1 {
   .card-img-overlay {
@@ -468,7 +323,7 @@ main {
   color: #00aced;
 }
 
-#myFooter .fa-paper-plane-o:focus {
+#myFooter .fa-telegram:focus {
   color: #00aced;
 }
 
@@ -480,6 +335,23 @@ main {
   #myFooter .row {
     margin: 0;
   }
+}
+
+
+.menuf{
+  margin-top: 15px;
+  display: block; }
+.menuf li {
+  display: inline; }
+.menuf li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 400; }
+.menuf li a:hover {
+  color: #92e247;
 }
 
 /****************************  AFISHA HR *******************************/
@@ -534,4 +406,5 @@ main {
   transition: opacity 1s ease;
 }
 
-/***********************************SOCIAL SITES SHARE*****************************/
+/***********************************back to top*****************************/
+ 
