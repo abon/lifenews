@@ -54,7 +54,29 @@ min-height: 110px;
 /********************************************SEARCH FORM***********************/
 #navBarSearchForm input[type=text]{width:200px !important;}
 
-
+/*******************************CARD  HOVER********************************/
+  
+.card {
+  transition: transform .5s;
+}
+.card::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  content: '';
+  opacity: 0;
+  z-index: -1;
+}
+.card:hover, .card:focus {
+  transform: scale3d(1.006, 1.006, 1);
+}
+.card:hover::after, .card:focus::after {
+  opacity: 1;
+}
 
 /***********************************LANGUAGE*****************************/
 .languagepicker {
@@ -430,4 +452,38 @@ ul.timeline>li:before {
     height:100%;
 }
 
-/**********************************CARD HOVER************************/
+/**********************************Social Site Share************************/
+.social-nav {
+  padding: 0;
+  list-style: none;
+  margin: -10px 0 0 -10px;
+}
+
+.social-nav li {
+
+  margin: 10px 0 0 10px;
+  list-style: none;
+}
+
+.social-nav a {
+ text-align: center;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 48px;
+  background: white;
+  position: relative;
+  transition: all 0.5;
+  
+}
+
+.social-nav a {
+  overflow: hidden;
+  padding-left: 10px;
+  font-size: 30px;
+  border-radius: 4px;
+}
+
+
