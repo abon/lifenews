@@ -84,7 +84,7 @@ min-height: 110px;
 	display: block;
 	padding: 0px 20px;
 	line-height: 40px;
-	border-top: 1px solid #EEE;
+	border-top: 1px solid white;
 }
 
 .languagepicker li:hover{
@@ -220,6 +220,11 @@ ul.timeline>li:before {
     border-bottom: 1px #eee solid;
     padding-top: 10px;
   }
+}
+
+/*****************************CAROUSEL*****************/
+.carousel-item.active {
+  display:block;
 }
 
 /************************** FOOOTER**********************************/
@@ -406,5 +411,23 @@ ul.timeline>li:before {
   transition: opacity 1s ease;
 }
 
-/***********************************back to top*****************************/
- 
+/***********************************AFISHA INDEX*****************************/
+#ThumbnailCarousel img {
+
+}
+
+#ThumbnailCarousel div {
+    height:500px;
+    width:100%;
+}
+
+#ThumbnailCarousel.carousel {
+    padding-top:30px;
+    text-align:center;
+}
+
+.col-md-3 .img-thumbnail {
+    height:100%;
+}
+
+/**********************************CARD HOVER************************/
