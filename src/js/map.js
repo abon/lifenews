@@ -17,7 +17,7 @@ function init() {
     
     // Программно выполним поиск определённых кафе в текущей
     // прямоугольной области карты.
-    searchControl.search('Шоколадница');
+    searchControl.search('Памятник Amir Temur');
 }
 
 ymaps.ready(init);

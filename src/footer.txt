@@ -1,0 +1,4 @@
+ <p style="text-align:left;">
+                Designed & Developed by <a src="https://asiagood.uz" style="color: #e73159"
+                <span style="float:right;"> Все права защищены &copy; 2019</span>
+                </p>
