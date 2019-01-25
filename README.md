@@ -1,6 +1,6 @@
 # lifenews.uz
 
-One Paragraph of project description goes here
+News website
 
 ## Getting Started
 
