@@ -14,7 +14,8 @@
 
 ### News Page:
 
-![News page](screenshots/news1.png)
+
+![Main page](screenshots/news1.png)
 <hr>
 
 ![News page](screenshots/news2.png)
@@ -29,7 +30,6 @@
 
 ![Map page](screenshots/map.png)
 <hr>
-
 
 ## Getting Started
 
