@@ -14,15 +14,21 @@
 
 ### News Page:
 
-<<<<<<< HEAD
-![Main page](screenshots/news1.png)
+![News page](screenshots/news1.png)
 <hr>
 
-![Main page](screenshots/news2.png)
+![News page](screenshots/news2.png)
 
 <hr>
 
-![Main page](screenshots/news3.png)
+![News page](screenshots/news3.png)
+
+
+
+### Map:
+
+![Map page](screenshots/map.png)
+<hr>
 
 
 ## Getting Started
