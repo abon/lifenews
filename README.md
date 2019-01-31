@@ -1,6 +1,27 @@
 # lifenews.uz
 
-News website
+### Main Page:
+
+![Main page](sc2.png)
+<hr>
+
+![Main page](sc3.png)
+
+<hr>
+
+![Main page](sc1.png)
+
+
+### Main Page:
+
+![Main page](sc2.png)
+<hr>
+
+![Main page](sc3.png)
+
+<hr>
+
+![Main page](sc1.png)
 
 ## Getting Started
 
