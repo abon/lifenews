@@ -2,26 +2,26 @@
 
 ### Main Page:
 
-![Main page](sc2.png)
+![Main page](screenshots/sc2.png)
 <hr>
 
-![Main page](sc3.png)
+![Main page](screenshots/sc3.png)
 
 <hr>
 
-![Main page](sc1.png)
+![Main page](screenshots/sc1.png)
 
 
 ### Main Page:
 
-![Main page](sc2.png)
+![Main page](screenshots/sc2.png)
 <hr>
 
-![Main page](sc3.png)
+![Main page](screenshots/sc3.png)
 
 <hr>
 
-![Main page](sc1.png)
+![Main page](screenshots/sc1.png)
 
 ## Getting Started
 
