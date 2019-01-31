@@ -2,26 +2,26 @@
 
 ### Main Page:
 
-![Main page](sc2.png)
+![Main page](screenshots/sc2.png)
 <hr>
 
-![Main page](sc3.png)
-
-<hr>
-
-![Main page](sc1.png)
-
-
-### Main Page:
-
-![Main page](sc2.png)
-<hr>
-
-![Main page](sc3.png)
+![Main page](screenshots/sc3.png)
 
 <hr>
 
-![Main page](sc1.png)
+![Main page](screenshots/sc1.png)
+
+
+### News Page:
+
+![Main page](screenshots/news1.png)
+<hr>
+
+![Main page](screenshots/news2.png)
+
+<hr>
+
+![Main page](screenshots/news3.png)
 
 ## Getting Started
 
