@@ -14,7 +14,7 @@
 
 ### News Page:
 
-<<<<<<< HEAD
+
 ![Main page](screenshots/news1.png)
 <hr>
 
@@ -23,16 +23,7 @@
 <hr>
 
 ![Main page](screenshots/news3.png)
-=======
-![Main page](screenshots/sc2.png)
-<hr>
 
-![Main page](screenshots/sc3.png)
-
-<hr>
-
-![Main page](screenshots/sc1.png)
->>>>>>> 39081ff24efca276c7e0e0820d5bf05856ce98a5
 
 ## Getting Started
 
