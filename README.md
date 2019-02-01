@@ -11,9 +11,7 @@
 
 ![Main page](screenshots/sc1.png)
 
-
 ### News:
-
 
 ![Main page](screenshots/news1.png)
 <hr>
@@ -24,13 +22,10 @@
 
 ![News page](screenshots/news3.png)
 
-
-
 ### Map:
 
 ![Map](screenshots/map.png)
 <hr>
-
 
 ### Poster:
 
@@ -39,8 +34,6 @@
 
 ![Poster](screenshots/poster2.png)
 <hr>
-
-
 
 ### Shopping:
 ![Poster](screenshots/shopping.png)
